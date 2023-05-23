@@ -7,7 +7,7 @@ export default function Catalog() {
         <>
         <Header/>
         <main className="inst-catalog-main">
-            <section id="inst-catalog-section">
+            <section id="inst-catalog-section" className="ins-top-container">
 
                 <div className="inst-search-bar-container">
                    <SearchBar/>
