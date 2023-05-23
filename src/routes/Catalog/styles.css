@@ -1,0 +1,22 @@
+#inst-catalog-section {
+    padding: 40px 0;
+}
+
+.inst-search-bar-container {
+    border: 1px solid red;
+    margin-bottom: 40px;
+}
+
+.inst-catalog-card-container {
+    border: 1px solid blue;
+}
+
+.inst-catalog-main {
+    padding: 0 10px;
+}
+
+@media (min-width: 576px) {
+    .inst-catalog-main {
+        padding: 0 20px;
+    }
+}
