@@ -1,6 +1,7 @@
 import "./styles.css";
 import Header from "../../components/Header ";
 import SearchBar from "../../components/SearchBar";
+import CatalogCard from "../../components/CatalogCard";
 
 export default function Catalog() {
     return(
@@ -14,6 +15,13 @@ export default function Catalog() {
                 </div>
 
                 <div className="inst-catalog-card-container">
+                    <CatalogCard/>
+                    <CatalogCard/>
+                    <CatalogCard/>
+                    <CatalogCard/>
+                    <CatalogCard/>
+                    <CatalogCard/>
+                    <CatalogCard/>
                 </div>
 
             </section>

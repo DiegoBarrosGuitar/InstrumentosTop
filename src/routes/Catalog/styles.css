@@ -7,7 +7,10 @@
 }
 
 .inst-catalog-card-container {
-    border: 1px solid blue;
+    border: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px,1fr));
 }
 
 .inst-catalog-main {

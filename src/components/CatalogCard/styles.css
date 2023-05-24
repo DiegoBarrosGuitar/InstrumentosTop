@@ -1,0 +1,26 @@
+.inst-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: var(--color-bg-quaternary);
+}
+
+.inst-card img{
+    width: 220px;
+    height: 165px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.inst-card h3{
+    font: 18px;
+    margin-bottom: 14px;
+}
+
+.inst-card p {
+    font-size: 14px;
+    color: var(--color-font-secondary);
+    margin-bottom: 38px;
+}
